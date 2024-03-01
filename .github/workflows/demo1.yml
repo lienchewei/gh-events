@@ -14,7 +14,7 @@ on:
       - 'dev-*'
       - 'feat/**'
     paths-ignore:
-      - '.github/workflow/*'
+      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
